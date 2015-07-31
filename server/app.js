@@ -9,7 +9,7 @@ app.use("/", index);
 
 app.set("port", (process.env.PORT || 5000));
 
-var server = app.listen(5000, function(){
+var server = app.listen(app.get("port"), function(){
     var port = server.address().port;
     console.log("Listening on port: 5000" );
 });
