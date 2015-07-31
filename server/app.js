@@ -7,6 +7,8 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use("/", index);
 
+app.set("port", (process.env.PORT || 5000));
+
 var server = app.listen(5000, function(){
     var port = server.address().port;
     console.log("Listening on port: 5000" );
