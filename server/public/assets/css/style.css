@@ -1,0 +1,43 @@
+.add-employee {
+    display : none;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.container {
+
+    background-color: white;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #ABC0C1;
+
+}
+
+.add-employee {
+    margin-bottom: 10px;
+}
+
+.assign-staff {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.gen-project {
+    margin-bottom: 10px;
+}
