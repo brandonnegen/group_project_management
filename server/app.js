@@ -1,4 +1,5 @@
 var express = require('express');
+var path = require('path');
 var index = require('./routes/index');
 var app = express();
 var CreateEmp = require('./employee');
